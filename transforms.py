@@ -2,12 +2,11 @@
 import numpy as np
 
 class RandomWindower:
-
-    def __init__(self, base_window=[217.3, 87.1],
-                 p_shift=0.0,
-                 p_scale=0.0,
-                 range_level=[11.5, 152.9],
-                 range_scale=[141.2, 325.9]):
+    def __init__(self, base_window=[198.8, 62.5],
+                 p_shift=0.163,
+                 p_scale=0.163,
+                 range_level=[2.5, 122.5],
+                 range_scale=[118.8, 278.8]):
 
         self.base_width, self.base_level = base_window
         self.p_shift = p_shift

@@ -2,7 +2,7 @@
 import numpy as np
 
 class RandomWindower:
-    def __init__(self, base_window=[198.8, 62.5],
+    def __init__(self, base_window=[198.8, 62.5],  # Tumor specific base window
                  p_shift=0.163,
                  p_scale=0.163,
                  range_level=[2.5, 122.5],
